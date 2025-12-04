@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #1c1c1c;
+    border-radius: 12px;
+    box-shadow: 0 0 10px #000;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.desc {
+    text-align: center;
+    font-size: 14px;
+    color: #bbb;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #e63946;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff4c5b;
+}
+.menu {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.menu-btn {
+    text-decoration: none;
+    background: #222;
+    padding: 14px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    border: 1px solid #333;
+    transition: 0.2s;
+}
+
+.menu-btn:hover {
+    background: #333;
+}
+.warmup-card {
+    background: #222;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #333;
+}
+
+.warmup-card h3 {
+    margin: 0 0 8px;
+}
+
+.back-btn {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 10px;
+    background: #444;
+    color: white;
+}
+
+.back-btn:hover {
+    background: #555;
+}
+/* teknik / materi */
+.tech-section { display:flex; flex-direction:column; gap:14px; margin-top:12px; }
+.tech-card {
+  background:#222;
+  padding:16px;
+  border-radius:12px;
+  border:1px solid #333;
+}
+.tech-card h2 { margin:0 0 8px; }
+.tech-card p, .tech-card ul, .tech-card ol { color:#ddd; margin:6px 0; line-height:1.4; }

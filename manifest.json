@@ -1,0 +1,21 @@
+{
+  "name": "JKD Tahap Awal",
+  "short_name": "JKD Awal",
+  "description": "Aplikasi latihan dasar Jeet Kune Do: pemanasan, teknik dasar, footwork, dan rekomendasi latihan.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#111111",
+  "theme_color": "#e63946",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

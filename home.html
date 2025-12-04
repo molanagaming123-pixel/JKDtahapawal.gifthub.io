@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JKD Trainer - Menu Utama</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<!-- BODY YANG BENAR -->
+<body onload="loadUserData()">
+
+    <div class="container">
+
+        <h1 id="greeting">Halo!</h1>
+        <p class="desc">Pilih materi latihan:</p>
+
+        <div class="menu">
+            <a href="warmup.html" class="menu-btn">Pemanasan</a>
+            <a href="techniques.html" class="menu-btn">Dasar Jeet Kune Do</a>
+            <a href="footwork.html" class="menu-btn">Footwork</a>
+            <a href="striking.html" class="menu-btn">Striking</a>
+            <a href="Tentang JKD.html" class="menu-btn">Tentang JKD</a>
+            <a href="recommendation.html" class="menu-btn">Rekomendasi Latihan</a>
+
+        </div>
+
+    </div>
+
+    <!-- Ambil data langsung dari localStorage -->
+    <script>
+        let user = JSON.parse(localStorage.getItem("userdata"));
+        if (user) {
+            document.getElementById("greeting").innerText = 
+                "Halo, " + user.name + "!";
+        }
+    </script>
+
+    <!-- Script utama -->
+    <script src="script.js"></script>
+
+</body>
+</html>
